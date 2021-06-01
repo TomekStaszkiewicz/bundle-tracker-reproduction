@@ -1,0 +1,21 @@
+{
+  "name": "repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --mode production --color --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-bundle-tracker": "^0.4.3",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "underscore": "^1.13.1"
+  }
+}
