@@ -15,7 +15,6 @@
     "webpack-cli": "^4.7.0"
   },
   "dependencies": {
-    "cross-env": "^7.0.3",
-    "underscore": "^1.13.1"
+    "cross-env": "^7.0.3"
   }
 }
